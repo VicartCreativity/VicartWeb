@@ -2,6 +2,7 @@ let paisaje2;
 let canvas;
 let h1; 
 let p;
+let a;
 
 function preload() {
   paisaje2 = loadImage("imag/img1.jpg");
@@ -21,6 +22,14 @@ h1.position(750, 0);
 p = createP('Drag mouse on image to see the original colors ');
 p.style('font-size', '20px');
 p.position(750, 100);
+	
+a = createA('https://rolandoapolo.wordpress.com/', 'Rolando Apolo');
+
+a.position(750, 200);
+
+a.style('font-size', '15px');
+
+a.style('color', 'blue');
 
   noCursor();
   cursor(CROSS);
