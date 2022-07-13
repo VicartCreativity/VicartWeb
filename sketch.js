@@ -23,7 +23,7 @@ p = createP('Drag mouse on image to see the original colors ');
 p.style('font-size', '20px');
 p.position(750, 100);
 	
-a = createA('https://rolandoapolo.wordpress.com/', 'Rolando Apolo');
+a = createA('https://www.instagram.com/vicartautomated/', 'Vicart');
 
 a.position(750, 200);
 
